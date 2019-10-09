@@ -1,0 +1,36 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema",
+
+    "title": "employee",
+
+    "description": "employee data",
+
+    "type":"object",
+
+    "properties": {
+        "id": {
+            "type":"integer"
+        },
+
+        "name":{
+            "description": "First Name of Employee",
+            "type": "string"
+        },
+
+        "surname":{
+            "description": "Last Name of Employee",
+            "type":"string"
+        },
+        "email_adress":{
+            "type":"string",
+            "format": "email"
+        },
+        "job-title":{
+            "type":"string"
+        },
+        "salary":{
+            "description": "Salary per month in USD",
+            "type":"number"
+        }
+    }
+}
