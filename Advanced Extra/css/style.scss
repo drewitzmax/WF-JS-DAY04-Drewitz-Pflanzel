@@ -1,0 +1,28 @@
+$buttonwidth: 3vw;
+
+#result,#formula {
+    height: $buttonwidth;
+}
+
+#calc {
+  width: 5 * $buttonwidth;
+}
+
+#input {
+    display: grid;
+    grid-template-columns: repeat(5, $buttonwidth);
+    grid-auto-rows: $buttonwidth;
+    border: 1px solid black;
+
+    div {
+        border-top: 1px solid black;
+        border-left: 1px solid black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+#equals {
+    grid-row: span 3;
+}

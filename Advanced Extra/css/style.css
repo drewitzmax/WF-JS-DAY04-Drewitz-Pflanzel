@@ -1,0 +1,22 @@
+#result, #formula {
+  height: 3vw; }
+
+#calc {
+  width: 15vw; }
+
+#input {
+  display: grid;
+  grid-template-columns: repeat(5, 3vw);
+  grid-auto-rows: 3vw;
+  border: 1px solid black; }
+  #input div {
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+
+#equals {
+  grid-row: span 3; }
+
+/*# sourceMappingURL=style.css.map */
