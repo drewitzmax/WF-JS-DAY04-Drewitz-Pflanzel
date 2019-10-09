@@ -1,0 +1,27 @@
+[
+    {
+        'title': "Parry Hotter",
+        'author': "K.J. Bowling",
+        'read': false
+    },
+    {
+        'title': "Das Kapital",
+        'author': "Marl Karx",
+        'read': false
+    },
+    {
+        'title': "Javascript for Idiots",
+        'author': "Some Guy",
+        'read': true
+    },
+    {
+        'title': "Funny and Original Cat Comics",
+        'author': "Your Mom",
+        'read': true
+    },
+    {
+        'title': "Das Alphabet von A bis Z",
+        'author': "Alpha Beta",
+        'read': false
+    }
+]
